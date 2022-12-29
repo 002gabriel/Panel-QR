@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --Backgrond: rgb(213, 225, 239);
+    --Shadow: rgba(79, 79, 79, 0.25);
+    --ShadowQR: rgba(57, 57, 151, 0.6);
+    --Text: rgb(34, 48, 69);
+    --LightText: rgb(154, 153, 160);
+}
+
+body {
+    background-color: var(--Backgrond);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.panelContainer {
+    padding: 1rem;
+    margin-top: 10rem;
+    background-color: white;
+    box-shadow: 0 0 15px var(--Shadow);
+    border-radius: 1.5rem;
+    max-width: 260px;
+}
+
+.imageContainer {
+    border-radius: 0.8rem;
+    height: 230px;
+    box-shadow: 0 0 15px var(--ShadowQR);
+}
+
+.QR__image {
+    /* margin: 1rem; */
+    border-radius: 0.8rem;
+    height: 230px;
+}
+
+.mainDescription {
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: var(--Text);
+}
+
+.simpleDescription {
+    font-size: 0.9rem;
+    font-weight: 520;
+    line-height: 0.9rem;
+    color: var(--LightText);
+}
